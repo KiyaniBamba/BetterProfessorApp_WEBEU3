@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+  html,
+body {
+  font-family: 'Oxygen', sans-serif;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oxygen';
+  color: #000000;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+
+/* NAVIGATION */
+
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 2rem;
+  }
+
+  .navigation h1 {
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+     color: #EE5C48;;
+  }
+
+  .navigation a {
+    justify-content: space-between;
+    /* width: 161px;
+    height: 42px;
+    left: 341px;
+    top: 47px; */
+    /* background-color: aqua; */
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    padding-right: 40px;
+  }
+
+  .navigation a1 {
+    align-content: flex-end;
+    /* width: 161px;
+    height: 42px;
+    left: 341px;
+    /* top: 47px; */
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    margin-left: 180px;
+    /* margin-right: 70px; */
+    color: black;
+  }
+
+  .navigation .Get-started{     
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    background-color: #F9F5F2; 
+    width: auto;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 166px;
+    height: 59px;
+    left: 1224px;
+    top: 30px;
+  }
+  .container-home {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 2rem;
+  }
+
+  h2 {
+    width: 648px;
+    height: 178px;
+    left: 400px;
+    top: 228px;
+    font-size: 50px;
+    line-height: 63px;
+    text-align: center;
+  }
+
+  h3 {
+    width: 544px;
+    height: 132px;
+    left: 441px;
+    top: 450px;
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #ACACAC; 
+    margin-top: 25px;  
+  }
+
+  .start-free-trial {
+    margin-top: 25px;
+    font-size: 24px;
+    color: white;
+    font-style: normal;
+    width: 333px;
+    height: 59px;
+    left: 544px;
+    top: 630px;
+    background: #EE5C48;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+  }
