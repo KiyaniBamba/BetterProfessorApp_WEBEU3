@@ -336,8 +336,7 @@ h3 {
   @media (max-width: 500px) {
      h4 {
         width: 430px;
-        margin-bottom: 35px;
-
+        margin-bottom: 45px;
     }
     }
 
@@ -368,6 +367,12 @@ h3 {
     background: #EE5C48;
 }
 
+@media (max-width: 500px) {
+    .register {
+        margin-top: 35px;
+    }
+    }
+
   /* FOOTER */
 
 
@@ -380,16 +385,6 @@ h3 {
     font-weight: bold;
   }
 
-  @media (max-width: 500px) {
-    .footer-nav a {
-    border: 1px solid red;
-    font-size: 5px;
-    line-height: 2px;
-    color: #000000;
-    }  
-  }
-
-
   .footer-nav a {
     justify-content: space-between;
     font-size: 20px;
@@ -398,7 +393,12 @@ h3 {
     color: #ACACAC;
   }
 
-
+  @media (max-width: 500px) {
+    .footer-nav a {
+    font-size: 15px;
+    justify-content: space-evenly;
+    }  
+  }
   /* FREE TRIAL */
 
   .logIn{
