@@ -72,6 +72,18 @@ h3 {
   font-size: 2.8rem;
 }
 
+
+.body {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  .site-container{
+      background-color:#FFFEFC; 
+  }
+
+
 /* NAVIGATION */
 
 
@@ -105,25 +117,18 @@ h3 {
     line-height: 30px;
     text-decoration: none;
     color: black;
-    margin-right: 15px;
-    padding-right: 40px;
+    padding-right:30px;
   }
 
 
   .navigation a1 {
     align-content: flex-end;
-    /* width: 161px;
-    height: 42px;
-    left: 341px;
-    /* top: 47px; */
     font-family: "Oxygen";
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 30px;
     text-decoration: none;
-    margin-left: 180px;
-    /* margin-right: 70px; */
     color: black;
   }
 
@@ -195,10 +200,12 @@ h3 {
     border-radius: 15px;
   }
 
-  .site-container{
-    max-width: 1200px;
-    margin: 0 auto;
+  .start-free-trial a{
+        text-decoration: none;
+        color: white;
   }
+
+  
 
   /* FEATURES BANNER */
 
@@ -217,30 +224,28 @@ h3 {
     color: #358180;
   }
 
-  .features{
-    margin-top: 144px;
-    width: 1440px;
-    height: 344px;
-    left: 0px;
-    top: 144px;
-    background: #F9F5F2;
-  }
 
   /* FEATURES */
  
   .features{
   display: flex;
+  width:100%;
+  justify-content: space-evenly;
+  /* background: #F9F5F2; */
   /* margin: 0 2% 20px; */
-  /* justify-content: space-around; */
+  justify-content: space-around;
   }
 
-  .features .features-container{
+  .features-container{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 60%;
     margin-top: 2px;
     margin-right: 20px;
     margin-left: 20px;
     padding: 2rem;
+    border-right: 1px solid #ACACAC;
     /* padding-right: 4%; */
   }
 
@@ -268,12 +273,15 @@ h3 {
     color: #000000;
   }
 
-.features .plane{
-    align-content:center;
+  .bottom h4{
+      margin-top:30px;
+  }
+
+.plane{
+    display: flex;
     width: 175px;
     height: 180px;
-    left: 142px;
-    top: 53px;
+    margin-bottom: 10px;    
   }
 
 
@@ -284,14 +292,8 @@ h3 {
     align-items:center;
 }
 
-.bottom-img{
-    width: 60%;
-    align-items:center;
-
-}
-
 .register{
-    margin-top: 25px;
+    margin-top: 5px;
     font-size: 24px;
     color: white;
     font-style: normal;
@@ -308,25 +310,16 @@ h3 {
   .footer-nav {
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center;
-    width: 100%;
-    /* margin-top: 2px; */
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 2rem;
-    width: 763px;
-    height: 51px;
-    left: 331px;
-    top: 798px;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    align-items: center;
     font-weight: bold;
   }
 
   .footer-nav a {
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     text-decoration: none;
-    margin-right: 15px;
-    padding-right: 40px;
     color: #ACACAC;
   }
